@@ -1,5 +1,5 @@
 # Customer Segementation
-This project is part of the Udacity Data Science Nanodegree. <br>
+This project is part of the *Udacity Data Science Nanodegree*. <br>
 In this project, I applied unsupervised learning techniques to identify segments of the population that form the core customer base for a mail-order sales company in Germany. 
 
 ## About the Data:
@@ -9,3 +9,12 @@ In this project, I applied unsupervised learning techniques to identify segments
 - AZDIAS_Feature_Summary.csv: Summary of feature attributes for demographics data; 85 features (rows) x 4 columns
 
 ## Steps:
+1. Preprocessing:
+  i. Assess missing data from columns and rows
+  ii. Re-encode categorical and mixed type columns
+  iii. Create a cleaning function
+  iv. Scale and impute the data
+2. Perform Dimensionality Reduction using PCA
+3. Apply Clustering using KMeans
+4. Compare Customer Data to Demographics Data
+5. Report findings and conclusions from the clustering analysis to describe segments of the population that are relatively popular with the mail-order company, and those relatively unpopular with the company.
