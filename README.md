@@ -10,10 +10,10 @@ In this project, I applied unsupervised learning techniques to identify segments
 
 ## Steps:
 1. Preprocessing:
-  i. Assess missing data from columns and rows
-  ii. Re-encode categorical and mixed type columns
-  iii. Create a cleaning function
-  iv. Scale and impute the data
+  * Assess missing data from columns and rows
+  * Re-encode categorical and mixed type columns
+  * Create a cleaning function
+  * Scale and impute the data
 2. Perform Dimensionality Reduction using PCA
 3. Apply Clustering using KMeans
 4. Compare Customer Data to Demographics Data
